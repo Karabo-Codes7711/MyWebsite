@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Google Calculator.</title>
+
+        <link rel="stylesheet" href="Styles/stylesheet.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="Calculator">
+            <div class="input">
+              <span id="screen"> </span>
+              <span onclick="ac()" class="ac"> AC </span>
+            </div>
+        
+
+        <div class="keys">
+            <span onclick="input('7')"> 7 </span>
+            <span onclick="input('8')"> 8 </span>
+            <span onclick="input('9')"> 9 </span>
+            <span onclick="input('/')" class="operator"> / </span>
+            <span onclick="input('4')"> 4 </span>
+            <span onclick="input('5')"> 5 </span>
+            <span onclick="input('6')"> 6 </span>
+            <span onclick="input('*')" class="operator"> * </span>
+            <span onclick="input('1')"> 1 </span>
+            <span onclick="input('2')"> 2 </span>
+            <span onclick="input('3')"> 3 </span>
+            <span onclick="input('-')" class="operator"> - </span>
+            <span onclick="input('0')"> 0 </span>
+            <span onclick="input('.')"> . </span>
+            <span onclick="evaluateEquation()" class="equals"> = </span>
+            <span onclick="input('+')" class="operator"> + </span>
+        </div>
+ </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>

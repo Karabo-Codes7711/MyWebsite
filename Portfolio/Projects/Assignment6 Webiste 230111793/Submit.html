@@ -1,0 +1,73 @@
+<html>
+    <head>
+          <title> Submit </title>
+          <link rel="stylesheet" href="Styles/Stylesheet.css"  type="text/css">
+    </head>
+
+    <body>
+            <header class="header">
+            <h1> Welcome to your personalised Recipe Book </h1>
+            <h2> Discover and share your favourite recipes! Whether you're a beginner or a seasoned chef, you'll find delicious meals to try </h2>
+        </header>
+
+        <nav class="nav">
+            <ol class="menu">
+                <li> <a href="Home.html"> Home </a> </li>
+                <li> <a href="Essentials.html"> Essentials </a> </li>
+                <li> <a href="Recipes.html"> Recipes </a> </li>
+                <li> <a href="Submit.html"> Submit </a> </li>
+            </ol>
+        </nav>
+
+        <p>
+            Submit your favourite recipe and your recipe could be
+            featured on the site!
+        </p>
+
+        <form action="mailto:isabelle@mandela.ac.za" method="post" class="recipeForm">
+            <fieldset>
+                <legend>Recipe Submission.</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+
+
+                <br>
+                <br>
+
+                <label for="email">Email Adress: </label>
+                <input type="email" id="email" name="email">
+
+                <br>
+                <br>
+
+                <p>What type of recipe will satisfy your sweet tooth? </p>
+
+                <input type="radio" name="meal" id="breakfast" class="feedbackOption">
+                <label for="breakfast"> Breakfast </label>
+
+                <input type="radio" id="lunch" name="meal" class="feedbackOption">
+                <label for="lunch"> Lunch </label>
+
+                <input type="radio" id="dinner" name="meal" class="feedbackOption">
+                <label for="dinner"> Dinner </label>
+
+                <input type="radio" id="desserts" name="meal" class="feedbackOption">
+                <label for="desserts">Desserts</label>
+
+                <br>
+                <br>
+
+                <h4 class="feedback">
+                    Correct inputs!
+                </h4>
+
+                <textarea rows="15" cols="100" placeholder="Enter your recipe here"></textarea>
+            </fieldset>
+        </form>
+         <footer class="footer">
+            <p id="author">Created by Karabo - March 2026 </p>
+        </footer>
+        
+    </body>
+</html>

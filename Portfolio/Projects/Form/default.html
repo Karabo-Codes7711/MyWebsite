@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="Styles/stylesheet.css" type="text/css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Registration Form</h1>
+        </header>
+
+     <form action="mailto:marinda.taljaard@mandela.ac.za" method="post">
+
+        <fieldset>
+
+            <legend>Biographical details.</legend>
+            <br>
+            <label for="studentno"> Student Number: </label>
+            <input type="text" name="studentno" id="studentno" size="9" placeholder="9Digits" required autocomplete="on"/>
+
+            <label for="firstname"> First Name: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter your first name here." required autocapitalize="on"/>
+
+            <label for="surname"> Surname: </label>
+            <input type="text" name="surname" id="surname" placeholder="Enter your surname here."/>
+            <br />
+            <br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="password" placeholder="Enter your password here." required/>
+            <br>
+            <br>
+
+            <label for="birthyear">Year born: </label>
+            <input type="number" name="birthyear" id="birthyear" min="1994" max="2020" size="4"/>
+            <br />
+            <br>
+
+            <label for="age">Age: </label>
+            <input type="range" name="age" id="age" min="16" max="40" step="1" value="19" />
+        
+            <label for="dobirth">Date of Birth:</label>
+            <input type="date" name="dobirth" id="dobirth" placeholder="yyyy/mm/dd"/>
+
+            <label for="userTime">Enter the time: </label>
+            <input type="time" name="userTime" id="userTime">
+            <br>
+            <br>
+
+        </fieldset>
+            <fieldset>
+                <legend>Nationality</legend>
+                <label for="nationality">What is your nationality: </label>
+            <br>
+            <input type="radio" name="nationality" value="SA" checked/>SA Student
+            <br>
+            <input type="radio" name="nationality" value="International">International Student
+            <br>
+            <br>
+
+            </fieldset>
+        
+            <fieldset>
+                <legend>Some Details</legend>
+                <label for="subscription">Do you want to subscribe to a newsletter?</label>
+            <br>
+            <input type="checkbox" name="subscription" value="Subscribe"/> Subscribe to newsletter.
+            <select name="age">
+                <option value="Pre-teen">Younger than 13</option>
+                <option value="Teenager">Teenager</option>
+                <option value="Young adult">Young adult</option>
+                <option value="Adult">Adult</option>
+            </select>
+
+            <p>Give a brief description of your hobbies: </p>
+            <textarea rows="5" cols="30" name="description">Put your brief description here: </textarea>
+            <br>
+            <br>
+
+            <input type="reset" value="Clear Form">
+            <input type="submit" value="Send info">
+
+            </fieldset>
+
+        <fieldset>
+            <legend>Author</legend>
+            <p>Created By Mokone</p>
+        </fieldset>
+            
+     </form>
+    </body>
+</html>

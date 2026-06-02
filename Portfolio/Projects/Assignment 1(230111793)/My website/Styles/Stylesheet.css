@@ -1,0 +1,32 @@
+body
+{
+    background-color: red;
+}
+h1
+{
+    border: 5px solid navy;
+    font-weight: bold;
+    color: darkblue;
+}
+h2
+{
+   color: darkgreen;
+   font-style: italic;
+}
+p
+{
+    text-align: justify;
+}
+li
+{
+    display: inline;
+}
+#inspiring{
+    color:blue;
+}
+.mokone{
+    font-family: Verdana;
+    font-size: 150%;
+    color: white;
+}
+

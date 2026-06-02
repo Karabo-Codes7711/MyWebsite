@@ -1,0 +1,157 @@
+body
+{
+  background-color: lightblue;
+  font-family: Arial;
+  margin: 30px;
+}
+
+h1
+{
+    color:darkblue;
+    text-align: justify;
+    font-size: 50px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+h2
+{
+    color:blue;
+    font-family: Verdana;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+h3
+{
+    color:dodgerblue;
+}
+
+p
+{
+    font-style: normal;
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.change
+{
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#special
+{
+    background-color:deepskyblue;
+    padding: 12px;
+}
+
+#different
+{
+    text-decoration: solid;
+    color: darkblue;
+    font-size: 40px;
+    background-color: lightblue;
+}
+
+ul
+{
+    list-style-type: square;
+}
+
+li
+{
+    margin-bottom: 0.5em;
+}
+
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0.5em 0.5em;
+}
+
+#name
+{
+    color:blue;
+    font-weight: bold;
+}
+
+table
+{
+    background-color: blue;
+}
+
+td,th
+{
+     background-color: white;
+     padding: 0.5em;
+}
+
+.One td:hover
+{
+    font-size: 120%;
+    color : darkblue
+}
+
+#menu li
+{
+    display: inline;
+    padding:0.5em;
+}
+
+#menu a:hover
+{
+    color:black;
+    background: white;
+    font-size: 120%;
+    width:150px;
+}
+
+a:hover
+{
+    color:black;
+    font-size: 140%;
+}
+
+
+
+/*for a bad web/page1*/
+.bad
+{
+    background-color: red;
+    color: aqua;
+}
+
+.bad h1
+{
+    font-family: Arial;
+    color:yellow;
+    font-size: 60px;
+}
+
+.bad p
+{
+    color: purple;
+    border-radius: 0%;
+    border-color: red;
+}
+
+.bad img
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 1em 0.5em;
+}
+
+.bad ul
+{
+    list-style-type: none;
+}

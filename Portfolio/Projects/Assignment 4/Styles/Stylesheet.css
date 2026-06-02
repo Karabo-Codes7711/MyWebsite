@@ -1,0 +1,137 @@
+/* Neon Blue (#1E90FF) - A glowing, futuristic blue.
+Cyber Purple (#8A2BE2) - Adds a mysterious time-travel feel.
+Deep Space Black (#121212) - Dark background for contrast.
+Retro Gold (#FFD700) -  Gives a vintage sci-fi touch.
+Time Warp Orange (#FF4500) - For buttons and warnings.
+Electric Teal (#00CED1) – Used for glowing UI elements and links. */
+
+body{
+    background-color: #121212;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    text-align: right;
+    border-bottom: #1E90FF thick ridge;
+}
+
+ul{
+    border-bottom: #FF1493 medium groove;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+li{
+    display: inline;
+    margin: 5em;
+}
+
+a{
+    color: #FF1493;
+}
+
+header{
+    text-align: center;
+    font-size: 150%;
+}
+
+h1{
+    color: #8A2BE2;
+    letter-spacing: 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#homeMain{
+    display: flex;
+}
+
+#homeMain article{
+    flex: 1;
+    margin: 2.5em;
+    text-align: center;
+    color: #1E90FF;
+}
+
+#homeMain article img{
+    height: 375px;
+    width: 100%;
+    border-color: #FF1493;
+    border-style:inset;
+    padding: 0.5em;
+}
+
+#TravelerStories{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+#TravelerStories div{
+    flex: 1 25%;
+    color: whitesmoke;
+    margin: 3em;
+}
+
+h4{
+    font-style: italic;
+    color: #1E90FF;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#move{
+    order: 6;
+}
+
+form{
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border: 2px solid #1E90FF;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00CED1;
+    color: #FF4500;
+}
+
+input[type="text"],
+input[type="number"],
+select{
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #8A2BE2;
+    border-radius: 5px;
+    background-color: #121212;
+    color: white;
+}
+
+label{
+    color: #FFD700;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: hand;
+}
+
+input[type="submit"]:hover{
+    background-color: #ff6347;
+    box-shadow: 0 0 10px #FF4500;
+}
+
+#output{
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #00CED1;
+    border-radius: 8px;
+    color: #FFD700;
+    text-align: center;
+    box-shadow: 0 0 10px #00CED1;
+}

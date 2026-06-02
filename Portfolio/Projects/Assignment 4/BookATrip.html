@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Styles/Stylesheet.css" type="text/css">
+    </head>
+
+    <body>
+        <nav>
+             <nav>
+             <ul>
+                <li> <a href="Home.html"> Home </a></li>
+                <li> <a href="TimeTravelTips.html"> Time Travel Tips </a></li>
+                <li> <a href="BookATrip.html"> Book a Trip </a></li>
+                <li> <a href="TravelerStories.html"> Traveller Stories </a></li>
+             </ul>
+        </nav>
+        </nav>
+
+        <form onsubmit= "CalcQuote(); return false;">
+
+            <table>
+
+                <tr>
+                    <td><label for="Tname">Traveller name:</label></td>
+                    <td><input type="text" name="Tname" id="Tname" placeholder="Enter the full name:" required/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="numberT">Number of travellers:</label></td>
+                    <td><input type="number" name="numberT" id="numberT" min="1" max="4" required placeholder="1-4"/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="era">Choose your destination era:</label></td>
+                    <td>
+                     <select name="era" id="era" required>
+                        <option value="">--Select an Era--</option>
+                        <option value="Ancient Egypt">Ancient Egypt (1350 BCE)</option>
+                        <option value="Golden Age Piracy">Golden Age of Piracy (1690s)</option>
+                        <option value="Wild West">Wild West (1870s)</option>
+                        <option value="Roaring Twenties">Roaring Twenties (1925)</option>
+                        <option value="Cyberpunk">Cyberpunk Metropolis (2142)</option>
+                        <option value="Martian">Martian Colony (2300)</option>
+                     </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Dlength">Length of stay (in local days):</label></td>
+                    <td><input type="number" name="Dlength" id="Dlength" min="1" max="365" required></td>
+                </tr>
+            </table>
+
+            <br>
+
+            <p>Preferred time-machine model:</p>
+
+            <input type="radio" name="machine" value="DoLorean"> Classic DoLorean - 88
+            <br>
+            <input type="radio" name="machine" value="steampunk"> Steampunk Portal - Gears,brass, and tea
+            <br>
+            <input type="radio" name="machine" value="quantum"> Quantum Suit - Sleek pockets dimensionally bigger on the side
+            <br>
+
+            <p>Optional Temporal Insurance (check all that apply):</p>
+
+            <input type="checkbox" name="insurance" value="clone"> Clone replacement (in case you spontaneously cease to exist)
+            <br>
+            <input type="checkbox" name="insurance" value="rewind"> Historical rewind (one free do-over, no questions asked)
+            <br>
+            <input type="checkbox" name="insurance" value="waiver"> Butterfly-Effect waiver (covers minor timeline hiccups)
+            <br>
+            <br>
+
+            <input type="submit" value="Generate Quote">
+
+            <p id="output"> </p> <!--For the output after the button is pressed.-->
+            
+        </form>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>

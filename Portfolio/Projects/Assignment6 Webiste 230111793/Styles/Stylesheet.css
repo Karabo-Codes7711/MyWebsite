@@ -1,0 +1,255 @@
+/*Karabo 230111793*/
+
+/*Part A*/
+*{
+   padding : 0;
+   margin : 0;
+} 
+
+body
+{
+    font-family: Verdana;
+    background-color: fbe8a6;
+    width: 80%;
+    margin: auto;
+}  
+
+p
+{
+    margin:0.5em;
+}
+
+h1
+{
+    text-align: center;
+    margin: 1em;
+    color: f4a261;
+}
+
+h2
+{
+    text-align: center;
+    font-style: italic;
+    color: 6b4226;
+}
+
+.menu li
+{
+    display: inline;
+    margin-right: 2em;
+}
+
+.menu a
+{
+    color: e76f51;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+   color:f4a261;
+}
+
+table td
+{
+  border:1px solid #a8c686;
+  padding :0.5em;
+  
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+.highlight
+{
+    font-style: italic;
+    color: e76f51;
+}
+
+img
+{
+   border:3px solid #a8c686;
+   margin:1em;
+}
+
+.resources
+{
+   text-decoration: none;
+   color:#e76f51;
+}
+
+#author
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 70%;
+}
+
+/*Part B*/
+
+.header
+{
+    background-color: floralwhite;
+    margin-bottom: 0.5em;
+}
+
+.nav
+{
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-top: 1px solid #a8c686;
+    border-bottom: 1px solid #a8c686;
+}
+
+.main
+{
+    display: flex;  
+}
+
+.text-block
+{
+    flex: 25%;
+}
+
+.middle-table
+{
+    flex: 50%;
+    justify-content: center;
+}
+
+.middle-table table
+{
+    margin: auto;
+}
+
+#each-recipe
+{
+    order: 1;
+}
+
+.middle-table
+{
+    order: 2;
+}
+
+#cooking-more
+{
+    order: 3;
+}
+
+.sub-main
+{
+    display: flex;
+}
+
+.image-block
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content
+{
+    flex: 1;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.footer
+{
+    background-color: floralwhite;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-top: 1px solid #a8c686;
+}
+
+ /*For Recipe Page*/
+
+.gallery
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.recipe-block
+{
+    min-width: 30%;
+    padding: 1.5em;
+}
+
+.recipe-block img
+{
+    height: 375px;
+    width: 100%;
+}
+
+.recipe-block:hover
+{
+    border: 1px solid #a8c686;
+    padding: 2.5em;
+    background-color: floralwhite;
+}
+
+/*Assignments 6 Update*/
+.active
+{
+    font-weight: bold;
+    color: floralwhite;
+    padding: 0.4em;
+    margin: 0.1em;
+}
+
+.custom-toolT
+{
+    position: relative;
+}
+
+.custom-toolT .toolT-text
+{
+    visibility: hidden;
+    position: absolute;
+    background-color: #6b4226;
+    color: white;
+    padding: 0.5em;
+    width: 220px;
+    left: 130%;
+    top: 0;
+    font-size: 12px;
+}
+
+.custom-toolT:hover .toolT-text
+{
+    visibility: visible;
+}
+
+.recipeForm
+{
+    padding: 2em;
+}
+
+.recipeForm legend
+{
+    color: #6b4226;
+    font-weight: bold;
+}
+
+.feedback
+{
+    display: none;
+}
+
+.feedbackOption:checked ~ .feedback
+{
+    display: block;
+}
+
+
+
+
